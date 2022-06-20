@@ -59,9 +59,6 @@ const api = {
     mockDataCountries(){
       return new Promise(resolve => resolve(countries))
     },
-    sedApplicantData(applicantData){
-      return sendData('applicants', applicantData);
-    }
   }
 };
 
