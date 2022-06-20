@@ -1,0 +1,182 @@
+export const Data = [
+    {
+        id: 1,
+        name: "Aangemeld",
+        data: [
+            {
+                id: 1,
+                name: "Kandidaat",
+                lastname: "1",
+                job_title: "Head Marketing",
+                email: "test@test.com",
+                country: 'México',
+                recruitment_status: {
+                    name: "aangemeld",
+                    created_at: "2022-02-17T19:10:45",
+                    updated_at: "2022-02-17T19:10:45",
+                },
+            },
+            {
+                id: 2,
+                name: "Kandidaat",
+                lastname: "2",
+                job_title: "Momenteel werkloos",
+                email: "test@test.com",
+                country: 'Colombia',
+                recruitment_status: {
+                    name: "aangemeld",
+                    created_at: "2022-02-17T19:10:45",
+                    updated_at: "2022-02-17T19:10:45",
+                },
+            },
+            {
+                id: 3,
+                name: "Kandidaat",
+                lastname: "3",
+                job_title: "Global Head Officer",
+                email: "test@test.com",
+                country: 'Colombia',
+                recruitment_status: {
+                    name: "aangemeld",
+                    created_at: "2022-02-17T19:10:45",
+                    updated_at: "2022-02-17T19:10:45",
+                },
+            },
+        ],
+    },
+    {
+        id: 2,
+        name: "Shortlist",
+        data: [
+            {
+                id: 1,
+                name: "Kandidaat",
+                lastname: "4",
+                job_title: "Software Engineer",
+                email: "test@test.com",
+                country: 'Colombia',
+                recruitment_status: {
+                    name: "shortlist",
+                    created_at: "2022-02-17T19:10:45",
+                    updated_at: "2022-02-17T19:10:45",
+                },
+            },
+            {
+                id: 2,
+                name: "Kandidaat",
+                lastname: "5",
+                job_title: "IT & Control",
+                email: "test@test.com",
+                country: 'Colombia',
+                recruitment_status: {
+                    name: "shortlist",
+                    created_at: "2022-02-17T19:10:45",
+                    updated_at: "2022-02-17T19:10:45",
+                },
+            },
+            {
+                id: 3,
+                name: "Kandidaat",
+                lastname: "6",
+                job_title: "Software Engineer",
+                email: "test@test.com",
+                country: 'Colombia',
+                recruitment_status: {
+                    name: "shortlist",
+                    created_at: "2022-02-17T19:10:45",
+                    updated_at: "2022-02-17T19:10:45",
+                },
+            },
+        ],
+    },
+    {
+        id: 3,
+        name: "Vervolgactie vereist",
+        data: [
+            {
+                id: 1,
+                name: "Kandidaat",
+                lastname: "7",
+                job_title: "Software Engineer",
+                email: "test@test.com",
+                country: 'México',
+                recruitment_status: {
+                    name: "vervolgactie",
+                    created_at: "2022-02-17T19:10:45",
+                    updated_at: "2022-02-17T19:10:45",
+                },
+            },
+            {
+                id: 2,
+                name: "Kandidaat",
+                lastname: "8",
+                job_title: "HR Product Owner",
+                email: "test@test.com",
+                country: 'Colombia',
+                recruitment_status: {
+                    name: "vervolgactie",
+                    created_at: "2022-02-17T19:10:45",
+                    updated_at: "2022-02-17T19:10:45",
+                },
+            },
+            {
+                id: 3,
+                name: "Kandidaat",
+                lastname: "9",
+                job_title: "HR Manager",
+                email: "test@test.com",
+                country: 'Colombia',
+                recruitment_status: {
+                    name: "vervolgactie",
+                    created_at: "2022-02-17T19:10:45",
+                    updated_at: "2022-02-17T19:10:45",
+                },
+            },
+        ],
+    },
+    {
+        id: 4,
+        name: "Afgewezen",
+        data: [
+            {
+                id: 1,
+                name: "Kandidaat",
+                lastname: "10",
+                job_title: "Momenteel werkloos",
+                email: "test@test.com",
+                country: 'Colombia',
+                recruitment_status: {
+                    name: "afgewezen",
+                    created_at: "2022-02-17T19:10:45",
+                    updated_at: "2022-02-17T19:10:45",
+                },
+            },
+            {
+                id: 2,
+                name: "Kandidaat",
+                lastname: "11",
+                job_title: "Angular Developer",
+                email: "test@test.com",
+                country: 'Colombia',
+                recruitment_status: {
+                    name: "afgewezen",
+                    created_at: "2022-02-17T19:10:45",
+                    updated_at: "2022-02-17T19:10:45",
+                },
+            },
+            {
+                id: 3,
+                name: "Kandidaat",
+                lastname: "12",
+                job_title: "Global Head",
+                email: "test@test.com",
+                country: 'Colombia',
+                recruitment_status: {
+                    name: "afgewezen",
+                    created_at: "2022-02-17T19:10:45",
+                    updated_at: "2022-02-17T19:10:45",
+                },
+            },
+        ],
+    }
+];

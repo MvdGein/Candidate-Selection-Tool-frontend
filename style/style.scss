@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Mulish:wght@300;400;600;700&display=swap');
+
+html,
+body {
+    margin: 0;
+	font-family: 'Mulish', sans-serif;
+}
+
+.companyTabs {
+    display: flex;
+    a {
+        margin: 0 1rem;
+    }
+}
