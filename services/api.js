@@ -55,11 +55,6 @@ const api = {
       return sendData(`candidates/${candidateId}/applicant-evaluation`, data);
     },
   },
-  companyReports: {
-    sendReport(companyId, data = {}) {
-      return sendData(`companies/${companyId}/recruitment-process-evaluation`, data);
-    },
-  },
   applicantRegistration: {
     mockDataCountries(){
       return new Promise(resolve => resolve(countries))
